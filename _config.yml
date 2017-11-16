@@ -34,7 +34,7 @@ github_username:
 # Site Author
 author:
   name   : "ALab Team"
-  avatar : "/assets/images/alab-avatar.jpg"
+  avatar : "/assets/images/alab-avatar.png"
   bio    : "AI Pathfinder."
   email  : # optional
   uri    : "https://alab.aqara.cn"
