@@ -77,17 +77,25 @@ toc_label: "Blog Sample"
 
 下面简单介绍一些常用的Markdown格式的编写规范：
 
-![alab-logo](https://jumpshare.com/v/K3eXefmQwE5GSRubrTFf+/alab-avatar-lucency.png)
-
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-#### 1. 列表
+#### 1. 图片
+
+使用完整链接地址：
+
+![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
+
+使用内部相对地址：
+
+![alab-logo-gray](/assets/images/alab-avatar-gray.png)
+
+#### 2. 列表
 
 - markdown格式的便捷性
 - markdown格式的通用性
 - markdown格式的不足
 
-#### 2. 书写一个质能守恒公式[^LaTeX]
+#### 3. 书写一个质能守恒公式
 
 $$E=mc^2$$
 
@@ -110,7 +118,7 @@ $$
 \end{align*}
 $$
 
-#### 3. 高亮一段代码[^code]
+#### 4. 高亮一段代码
 
 ```python
 @requires_authorization
@@ -121,7 +129,7 @@ if __name__ == '__main__':
     # A comment
     print 'hello world'
 ```
-#### 4. 绘制表格
+#### 5. 绘制表格
 
 | 项目        | 价格   |  数量  |
 | --------   | -----:  | :----:  |
