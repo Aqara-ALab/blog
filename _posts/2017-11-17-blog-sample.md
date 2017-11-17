@@ -92,15 +92,15 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
  
 内部图片链接地址：
 ```md
-![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
+![github-logo](https://aqara-alab.github.io/blog/assets/images/louis/sample-github-2.png)
 ```
-![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
+![github-logo](https://aqara-alab.github.io/blog/assets/images/louis/sample-github-2.png)
 
 内部相对链接地址：
 ```md
 ![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
 ```
-![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
+![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
 
 #### 图片的排列
 
