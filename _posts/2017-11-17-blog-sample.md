@@ -11,6 +11,7 @@ tags:
   - ALab
 toc: true
 toc_label: "Blog Sample"
+toc_icon: "heart"
 ---
 这是一篇利用**Markdown**格式编写的一篇博客样本，大家可以参考这篇样本来编写博客，这里主要介绍ALab团队技术博客的编写注意事项。欢迎大家利用此博客进行：
 - *整理知识，学习笔记*
@@ -24,12 +25,12 @@ toc_label: "Blog Sample"
 
 以下是第一次使用的步骤：
 
-1. 克隆ALab团队技术博客代码库[Aqara-ALab/blog](https://github.com/Aqara-ALab/blog)
-2. 在/_data/authors.yml文件中补充作者信息，可以参考Louis，直接复制一份，进行修改
-3. 在/assets/images/文件夹下创建一个以作者名称命名的文件夹，用于存放博客文章中会用到的图片
-4. 编写Markdown格式的博客文章，存放至/_posts/文件夹下，博客文章的名称格式为：年-月-日-标题名称.md，如：2017-11-17-blog-sample.md（标题中多个英文字符之间用“-”间隔，若为中文标题，则无需间隔）
-5. 提交至代码库[Aqara-ALab/blog](https://github.com/Aqara-ALab/blog)
-6. 稍等片刻（30秒以内），刷新博客主页，即可看到博客文章，若需重新编辑，可重复步骤4、5
+1. 克隆ALab团队技术博客代码库[Aqara-ALab/blog](https://github.com/Aqara-ALab/blog)；
+2. 在/_data/authors.yml文件中补充作者信息，可以参考Louis，直接复制一份，进行修改；
+3. 在/assets/images/文件夹下创建一个以作者名称命名的文件夹，用于存放博客文章中会用到的图片；
+4. 编写Markdown格式的博客文章，存放至/_posts/文件夹下，博客文章的名称格式为：年-月-日-标题名称.md，如：2017-11-17-blog-sample.md（标题中多个英文字符之间用“-”间隔，若为中文标题，则无需间隔）；
+5. 提交至代码库[Aqara-ALab/blog](https://github.com/Aqara-ALab/blog)；
+6. 稍等片刻（30秒以内），刷新博客主页，即可看到博客文章，若需重新编辑，可重复步骤4、5；
 
 后续再提交博客文章，也只需要步骤4、5、6即可。
 
@@ -67,6 +68,7 @@ tags:
   - ALab
 toc: true
 toc_label: "Blog Sample"
+toc_icon: "heart"
 ---
 ```
 ### 正文内容
@@ -197,22 +199,8 @@ And now we're going to shift things to the **right align**. Again, there should 
 
 The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
 
-```html
-<figure style="width: 150px" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg" alt="">
-  <figcaption>Itty-bitty caption.</figcaption>
-</figure> 
-```
 
-<figure style="width: 300px" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg" alt="">
-  <figcaption>Itty-bitty caption.</figcaption>
-</figure> 
-
-The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned**.
-
-
-## 2. 列表
+### 2. 列表
 
 - markdown格式的便捷性
 - markdown格式的通用性
@@ -352,31 +340,8 @@ if __name__ == '__main__':
 | 手机        |   \$12   |   12   |
 | 管线        |    \$1    |  234  |
 
-```md
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-```
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-
 ---
+
 总而言之，不同于其它 *所见即所得* 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。
 
 ## 更多
