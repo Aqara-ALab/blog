@@ -2,7 +2,7 @@
 title:  "欢迎使用 ALab 团队技术博客（样篇）"
 author: Louis
 header:
-  image: /assets/images/alab-head.jpg
+  image: /assets/images/unsplash-image-9.jpg
 categories: 
   - Sample
 tags:
