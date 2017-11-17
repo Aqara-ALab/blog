@@ -164,11 +164,46 @@ And you'll get something that looks like this:
 
 **居中**
 ```md
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg){: .align-center}
 ```
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg){: .align-center}
 
-### 2. 列表
+**居右**
+```md
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg){: .align-right}
+```
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg){: .align-right}
+
+And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+
+```html
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg" alt="">
+  <figcaption>Look at 580 x 300 getting some love.</figcaption>
+</figure> 
+```
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg" alt="">
+  <figcaption>Look at 580 x 300 getting some love.</figcaption>
+</figure> 
+
+The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
+
+```html
+<figure style="width: 150px" class="align-left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg" alt="">
+  <figcaption>Itty-bitty caption.</figcaption>
+</figure> 
+```
+<figure style="width: 150px" class="align-left">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg" alt="">
+  <figcaption>Itty-bitty caption.</figcaption>
+</figure> 
+
+The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned**.
+
+
+## 2. 列表
 
 - markdown格式的便捷性
 - markdown格式的通用性
@@ -201,8 +236,8 @@ And you'll get something that looks like this:
 ```md
 $$E=mc^2$$
 ```
-$$E=mc^2$$
 
+$$E=mc^2$$
 或者，来一个更复杂的：
 
 ```md
@@ -223,6 +258,7 @@ $$
 \end{align*}
 $$
 ```
+
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
