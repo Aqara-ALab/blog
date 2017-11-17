@@ -22,7 +22,7 @@ title                    : "ALab Blog"
 title_separator          : "|"
 name                     : "Aqara ALab Team"
 description              : "Aqara AI Team Technology Blog."
-url                      : https://aqara-alab.github.io
+url                      : http://alab.aqara.com
 baseurl                  : /blog
 repository               : Aqara-Alab/blog # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
