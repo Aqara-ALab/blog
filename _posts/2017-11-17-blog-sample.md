@@ -77,7 +77,8 @@ toc_icon: "heart"
 
 关于Markdown，大家可以参考这篇文章的介绍：[Markdown新手指南](http://www.jianshu.com/p/q81RER)，在Windows系统环境，有一些常用的Markdown编辑软件，如：[MarkdownPad](http://markdownpad.com/)，[Yu Writer](https://ivarptr.github.io/yu-writer.site/)，[有道云笔记](http://note.youdao.com/)等等。
 
-Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
+Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，当然还有很多实用的功能，请参考下一节内容。
+
 
 ## 支持的编辑功能
 
@@ -108,8 +109,14 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 ```html
 <figure>
-	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击：）</a>.</figcaption>
+	<a href="/blog/assets/images/alab-avatar.png">
+		<img src="/blog/assets/images/alab-avatar-gray.png">
+	</a>
+	<figcaption>
+		<a href="/blog/assets/images/alab-avatar.png" title="ALab logo">
+			请点击这行文字
+		</a>
+	</figcaption>
 </figure>
 ```
 
@@ -127,8 +134,12 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/blog/assets/images/louis/sample-img-1-l.jpg"><img src="/blog/assets/images/louis/sample-img-1-s.jpg"></a>
-    <a href="/blog/assets/images/sample-img-2-l.jpg"><img src="/blog/assets/images/sample-img-2-s.jpg"></a>
+    <a href="/blog/assets/images/louis/sample-img-1-l.jpg">
+		<img src="/blog/assets/images/louis/sample-img-1-s.jpg">
+	</a>
+    <a href="/blog/assets/images/sample-img-2-l.jpg">
+		<img src="/blog/assets/images/sample-img-2-s.jpg">
+	</a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -223,6 +234,7 @@ The figure above happens to be **centered**. The caption also has a link in it, 
     2. ordered item
 3. ordered item
 4. ordered item
+
 
 ### 3. Latex公式
 
