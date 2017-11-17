@@ -30,7 +30,7 @@ toc_icon: "heart"
 3. 在/assets/images/文件夹下创建一个以作者名称命名的文件夹，用于存放博客文章中会用到的图片；
 4. 编写Markdown格式的博客文章，存放至/_posts/文件夹下，博客文章的名称格式为：年-月-日-标题名称.md，如：2017-11-17-blog-sample.md（标题中多个英文字符之间用“-”间隔，若为中文标题，则无需间隔）；
 5. 提交至代码库[Aqara-ALab/blog](https://github.com/Aqara-ALab/blog)；
-6. 稍等片刻（30秒以内），刷新博客主页，即可看到博客文章，若需重新编辑，可重复步骤4、5；
+6. 稍等片刻（一分钟以内），刷新博客主页，即可看到博客文章，若需重新编辑，可重复步骤4、5；
 
 后续再提交博客文章，也只需要步骤4、5、6即可。
 
@@ -124,7 +124,7 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 <figure>
 	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击：）</a>.</figcaption>
+	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击这行文字</a>.</figcaption>
 </figure>
 
 
@@ -134,11 +134,9 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/blog/assets/images/louis/sample-img-1-l.jpg">
-		<img src="/blog/assets/images/louis/sample-img-1-s.jpg">
+    <a href="/blog/assets/images/louis/sample-img-1-l.jpg"><img src="/blog/assets/images/louis/sample-img-1-s.jpg">
 	</a>
-    <a href="/blog/assets/images/sample-img-2-l.jpg">
-		<img src="/blog/assets/images/sample-img-2-s.jpg">
+    <a href="/blog/assets/images/sample-img-2-l.jpg"><img src="/blog/assets/images/sample-img-2-s.jpg">
 	</a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
@@ -148,7 +146,7 @@ And you'll get something that looks like this:
 <figure class="half">
 	<a href="/blog/assets/images/louis/sample-img-1-l.jpg"><img src="/blog/assets/images/louis/sample-img-1-s.jpg"></a>
 	<a href="/blog/assets/images/louis/sample-img-2-l.jpg"><img src="/blog/assets/images/louis/sample-img-2-s.jpg"></a>
-	<figcaption>Two images.</figcaption>
+	<figcaption>Caption describing these two images.</figcaption>
 </figure>
 
 
@@ -213,15 +211,13 @@ The figure above happens to be **centered**. The caption also has a link in it, 
 - markdown格式的通用性
 - markdown格式的不足
 
-**Ordered -- Unordered -- Ordered**
+**Ordered -- Unordered**
 
 ```md
 1. ordered item
 2. ordered item 
   * **unordered**
   * **unordered** 
-    1. ordered item
-    2. ordered item
 3. ordered item
 4. ordered item
 ```
@@ -230,8 +226,6 @@ The figure above happens to be **centered**. The caption also has a link in it, 
 2. ordered item 
   * **unordered**
   * **unordered** 
-    1. ordered item
-    2. ordered item
 3. ordered item
 4. ordered item
 
