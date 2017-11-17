@@ -73,26 +73,22 @@ toc_icon: "heart"
 ```
 ### 正文内容
 
-该博客支持Markdown格式，我们使用的是[kramdown](https://kramdown.gettalong.org/)解析器，利用[mathjax](https://www.mathjax.org/)支持Latex公式的编写，支持代码的编写。
-
-**关于Markdown**
+该博客支持Markdown格式，我们使用的是[kramdown](https://kramdown.gettalong.org/)解析器，利用[mathjax](https://www.mathjax.org/)支持Latex公式的编写，另外也支持代码的高亮。
 
 关于Markdown，大家可以参考这篇文章的介绍：[Markdown新手指南](http://www.jianshu.com/p/q81RER)，在Windows系统环境，有一些常用的Markdown编辑软件，如：[MarkdownPad](http://markdownpad.com/)，[Yu Writer](https://ivarptr.github.io/yu-writer.site/)，[有道云笔记](http://note.youdao.com/)等等。
 
-## 支持的功能
-
-下面简单介绍一些常用的Markdown格式的编写规范：
-
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
+
+## 支持的编辑功能
 
 ### 1. 图片
 
 外部图片链接地址：
 ```md
-![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
+![github-logo](http://xaharts.org/funny/i/gitopuss/github-octocat_yes-we-code.jpg)
 ```
 
-![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
+![github-logo](http://xaharts.org/funny/i/gitopuss/github-octocat_yes-we-code.jpg)
  
 内部图片链接地址：
 ```md
@@ -102,9 +98,9 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 内部相对链接地址：
 ```md
-![alab-logo-gray]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
+![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
 ```
-![alab-logo-gray]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
+![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
 
 #### 图片的排列
 
@@ -151,18 +147,18 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
-	<img src="/blog/assets/images/alab-avatar-lucency.png">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/blog/assets/images/louis/bio-photo-2.jpg">
+	<img src="/blog/assets/images/louis/bio-photo.jpg">
+	<img src="/blog/assets/images/louis/bio-photo-2.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```
 And you'll get something that looks like this:
 
 <figure class="third">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
-	<img src="/blog/assets/images/alab-avatar-lucency.png">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/blog/assets/images/louis/bio-photo-2.jpg">
+	<img src="/blog/assets/images/louis/bio-photo.jpg">
+	<img src="/blog/assets/images/louis/bio-photo-2.jpg">
 	<figcaption>Three images.</figcaption>
 </figure>
 
