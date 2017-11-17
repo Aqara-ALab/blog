@@ -13,7 +13,7 @@ toc: true
 toc_label: "Blog Sample"
 toc_icon: "heart"
 ---
-这是一篇利用**Markdown**格式编写的一篇博客样本，大家可以参考这篇样本来编写博客，这里主要介绍ALab团队技术博客的编写注意事项。欢迎大家利用此博客进行：
+这是一篇利用**Markdown**格式编写的一篇博客样本，大家可以参考这篇样本来编写博客，这里主要介绍ALab团队技术博客的编写注意事项。欢迎大家利用此博客进行以下工作：
 - *整理知识，学习笔记*
 - *记录对有关技术问题的思考*
 - *撰写技术方案工程实践文稿（代码支持）*
@@ -351,7 +351,7 @@ if __name__ == '__main__':
 关于此博客模板，还有很多功能可以使用，大家如果有兴趣，可以参考[minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 
-## 参考文献：
+## 参考文献
 
 [minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
