@@ -52,7 +52,7 @@ toc_label: "Blog Sample"
 
 具体可参考这篇文章的配置信息，如下：
 
-```yml
+```yaml
 ---
 title:  "Blog Sample"
 author: Louis
@@ -91,11 +91,9 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 **One Up**
 
-图片可点击：
-
 <figure>
 	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<figcaption><a href="/blog/assets/images/alab-avatar-lucency.png" title="ALab logo">请点击我:)</a>.</figcaption>
+	<figcaption><a href="/blog/assets/images/alab-avatar-lucency.png" title="ALab logo">ALab logo</a>.</figcaption>
 </figure>
 
 **Two Up**
@@ -104,8 +102,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-    <a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-lucency.png"></a>
+    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
+    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -113,8 +111,8 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-lucency.png"></a>
+	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
+	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -124,9 +122,9 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
-	<img src="/blog/assets/images/alab-avatar-lucency.png">
-	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/images/image-filename-1.jpg">
+	<img src="/images/image-filename-2.jpg">
+	<img src="/images/image-filename-3.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```
@@ -134,17 +132,32 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-  <img src="/blog/assets/images/alab-avatar-gray.png">
-  <img src="/blog/assets/images/alab-avatar-lucency.png">
-  <img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="http://placehold.it/600x300.jpg">
+	<img src="http://placehold.it/600x300.jpg">
+	<img src="http://placehold.it/600x300.jpg">
 	<figcaption>Three images.</figcaption>
 </figure>
+
+**居中**
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png){: .align-center}
 
 #### 2. 列表
 
 - markdown格式的便捷性
 - markdown格式的通用性
 - markdown格式的不足
+
+**Ordered -- Unordered -- Ordered**
+
+1. ordered item
+2. ordered item 
+  * **unordered**
+  * **unordered** 
+    1. ordered item
+    2. ordered item
+3. ordered item
+4. ordered item
 
 #### 3. 书写一个质能守恒公式
 
@@ -180,7 +193,54 @@ if __name__ == '__main__':
     # A comment
     print 'hello world'
 ```
-#### 5. 绘制表格
+
+```html
+{% raw %}<nav class="pagination" role="navigation">
+  {% if page.previous %}
+    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+  {% endif %}
+</nav><!-- /.pagination -->{% endraw %}
+```
+
+{% highlight html linenos %}
+{% raw %}<nav class="pagination" role="navigation">
+  {% if page.previous %}
+    <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+  {% endif %}
+</nav><!-- /.pagination -->{% endraw %}
+{% endhighlight %}
+
+**Code Blocks in Lists**
+
+Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting 3 spaces instead of 4.
+
+1. Do step 1.
+2. Now do this:
+   
+   ```ruby
+   def print_hi(name)
+     puts "Hi, #{name}"
+   end
+   print_hi('Tom')
+   #=> prints 'Hi, Tom' to STDOUT.
+   ```
+        
+3. Now you can do this.
+
+**GitHub Gist Embed**
+
+An example of a Gist embed below.
+
+<script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
+
+#### 5.
+ 绘制表格
 
 | 项目        | 价格   |  数量  |
 | --------   | -----:  | :----:  |
