@@ -92,8 +92,8 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 **One Up**
 
 <figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="/assets/images/alab-avatar.jpg"><img src="/assets/images/alab-avatar-gray.jpg"></a>
+	<figcaption><a href="/assets/images/alab-avatar.jpg" title="ALab logo">ALab logo</a>.</figcaption>
 </figure>
 
 **Two Up**
