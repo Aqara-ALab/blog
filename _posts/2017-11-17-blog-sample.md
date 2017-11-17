@@ -3,6 +3,7 @@ title:  "欢迎使用 ALab 团队技术博客（样篇）"
 author: Louis
 header:
   image: /assets/images/unsplash-image-9.jpg
+read_time: true
 categories: 
   - Sample
 tags:
@@ -58,6 +59,7 @@ title:  "Blog Sample"
 author: Louis
 header:
   image: /assets/images/alab-head.jpg
+read_time: true
 categories: 
   - Sample
 tags:
@@ -75,25 +77,49 @@ toc_label: "Blog Sample"
 
 关于Markdown，大家可以参考这篇文章的介绍：[Markdown新手指南](http://www.jianshu.com/p/q81RER)，在Windows系统环境，有一些常用的Markdown编辑软件，如：[MarkdownPad](http://markdownpad.com/)，[Yu Writer](https://ivarptr.github.io/yu-writer.site/)，[有道云笔记](http://note.youdao.com/)等等。
 
+## 支持的功能
+
 下面简单介绍一些常用的Markdown格式的编写规范：
 
 Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体** 或者 *斜体* 某些文字，更棒的是，它还可以
 
-#### 1. 图片
+### 1. 图片
 
 外部图片链接地址：
+```md
+![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
+```
 
 ![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
  
 内部图片链接地址：
-
+```md
 ![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
+```
+![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
+
+内部相对链接地址：
+```md
+![alab-logo-gray]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
+```
+![alab-logo-gray]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png)
+
+#### 图片的排列
 
 **One Up**
 
+```html
 <figure>
 	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<figcaption><a href="/blog/assets/images/alab-avatar-lucency.png" title="ALab logo">ALab logo</a>.</figcaption>
+	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击：）</a>.</figcaption>
+</figure>
+```
+
+图片可点击：
+
+<figure>
+	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
+	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击：）</a>.</figcaption>
 </figure>
 
 **Two Up**
@@ -102,17 +128,16 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
-    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
+    <a href="/blog/assets/images/louis/sample-img-1-l.jpg"><img src="/blog/assets/images/louis/sample-img-1-s.jpg"></a>
+    <a href="/blog/assets/images/sample-img-2-l.jpg"><img src="/blog/assets/images/sample-img-2-s.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
-
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
+	<a href="/blog/assets/images/louis/sample-img-1-l.jpg"><img src="/blog/assets/images/louis/sample-img-1-s.jpg"></a>
+	<a href="/blog/assets/images/louis/sample-img-2-l.jpg"><img src="/blog/assets/images/louis/sample-img-2-s.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -122,33 +147,45 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/blog/assets/images/alab-avatar-lucency.png">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```
-
 And you'll get something that looks like this:
 
 <figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/blog/assets/images/alab-avatar-lucency.png">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
 	<figcaption>Three images.</figcaption>
 </figure>
 
 **居中**
-
+```md
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png){: .align-center}
+```
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/alab-avatar-lucency.png){: .align-center}
 
-#### 2. 列表
+### 2. 列表
 
 - markdown格式的便捷性
 - markdown格式的通用性
 - markdown格式的不足
 
 **Ordered -- Unordered -- Ordered**
+
+```md
+1. ordered item
+2. ordered item 
+  * **unordered**
+  * **unordered** 
+    1. ordered item
+    2. ordered item
+3. ordered item
+4. ordered item
+```
 
 1. ordered item
 2. ordered item 
@@ -159,12 +196,33 @@ And you'll get something that looks like this:
 3. ordered item
 4. ordered item
 
-#### 3. 书写一个质能守恒公式
+### 3. Latex公式
 
+```md
+$$E=mc^2$$
+```
 $$E=mc^2$$
 
 或者，来一个更复杂的：
 
+```md
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+```
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -182,7 +240,7 @@ $$
 \end{align*}
 $$
 
-#### 4. 高亮一段代码
+### 4. 代码编辑
 
 ```python
 @requires_authorization
@@ -218,8 +276,6 @@ if __name__ == '__main__':
 
 **Code Blocks in Lists**
 
-Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., `1.`). Usually this will mean indenting 3 spaces instead of 4.
-
 1. Do step 1.
 2. Now do this:
    
@@ -233,14 +289,15 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
         
 3. Now you can do this.
 
-**GitHub Gist Embed**
+### 5. 绘制表格
 
-An example of a Gist embed below.
-
-<script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
-
-#### 5.
- 绘制表格
+```md
+| 项目        | 价格   |  数量  |
+| --------   | -----:  | :----:  |
+| 计算机     | \$1600 |   5     |
+| 手机        |   \$12   |   12   |
+| 管线        |    \$1    |  234  |
+```
 
 | 项目        | 价格   |  数量  |
 | --------   | -----:  | :----:  |
@@ -255,9 +312,8 @@ An example of a Gist embed below.
 
 关于此博客模板，还有很多功能可以使用，大家如果有兴趣，可以参考[minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
-2016 年 07月 07日    
 
-参考文献：
+## 参考文献：
 
 [minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
