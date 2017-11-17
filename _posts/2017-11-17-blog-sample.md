@@ -91,9 +91,11 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 **One Up**
 
+图片可点击：
+
 <figure>
 	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
-	<figcaption><a href="/blog/assets/images/alab-avatar-lucency.png" title="ALab logo">ALab logo</a>.</figcaption>
+	<figcaption><a href="/blog/assets/images/alab-avatar-lucency.png" title="ALab logo">请点击我:)</a>.</figcaption>
 </figure>
 
 **Two Up**
@@ -102,8 +104,8 @@ Apply the `half` class like so to display two images side by side that share the
 
 ```html
 <figure class="half">
-    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
-    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
+    <a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
+    <a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-lucency.png"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -111,8 +113,8 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
+	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-gray.png"></a>
+	<a href="/blog/assets/images/alab-avatar.png"><img src="/blog/assets/images/alab-avatar-lucency.png"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -122,9 +124,9 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
+	<img src="/blog/assets/images/alab-avatar-lucency.png">
+	<img src="/blog/assets/images/alab-avatar-gray.png">
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
 ```
@@ -132,9 +134,9 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
+  <img src="/blog/assets/images/alab-avatar-gray.png">
+  <img src="/blog/assets/images/alab-avatar-lucency.png">
+  <img src="/blog/assets/images/alab-avatar-gray.png">
 	<figcaption>Three images.</figcaption>
 </figure>
 
