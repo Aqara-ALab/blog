@@ -2,7 +2,7 @@
 title:  "欢迎使用 ALab 团队技术博客（样篇）"
 author: Louis
 header:
-  image: /assets/images/unsplash-image-9.jpg
+  image: /assets/images/louis/sample-header.jpg
 read_time: true
 categories: 
   - Sample
@@ -58,7 +58,7 @@ toc_label: "Blog Sample"
 title:  "Blog Sample"
 author: Louis
 header:
-  image: /assets/images/alab-head.jpg
+  image: /assets/images/louis/sample-header.jpg
 read_time: true
 categories: 
   - Sample
@@ -122,6 +122,7 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 	<figcaption><a href="/blog/assets/images/alab-avatar.png" title="ALab logo">请点击：）</a>.</figcaption>
 </figure>
 
+
 **Two Up**
 
 Apply the `half` class like so to display two images side by side that share the same caption.
@@ -140,6 +141,7 @@ And you'll get something that looks like this:
 	<a href="/blog/assets/images/louis/sample-img-2-l.jpg"><img src="/blog/assets/images/louis/sample-img-2-s.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
+
 
 **Three Up**
 
@@ -162,27 +164,33 @@ And you'll get something that looks like this:
 	<figcaption>Three images.</figcaption>
 </figure>
 
+
 **居中**
+
 ```md
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg){: .align-center}
 ```
+
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg){: .align-center}
 
 **居右**
+
 ```md
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg){: .align-right}
 ```
+
 ![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg){: .align-right}
 
 And now we're going to shift things to the **right align**. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
 
 ```html
-<figure class="align-center">
+<figure style="width: 580px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg" alt="">
   <figcaption>Look at 580 x 300 getting some love.</figcaption>
 </figure> 
 ```
-<figure class="align-center">
+
+<figure style="width: 580px" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-580x300.jpg" alt="">
   <figcaption>Look at 580 x 300 getting some love.</figcaption>
 </figure> 
@@ -195,6 +203,7 @@ The figure above happens to be **centered**. The caption also has a link in it, 
   <figcaption>Itty-bitty caption.</figcaption>
 </figure> 
 ```
+
 <figure style="width: 150px" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-img-300x200.jpg" alt="">
   <figcaption>Itty-bitty caption.</figcaption>
@@ -238,6 +247,7 @@ $$E=mc^2$$
 ```
 
 $$E=mc^2$$
+
 或者，来一个更复杂的：
 
 ```md
@@ -275,6 +285,7 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+
 
 ### 4. 代码编辑
 
