@@ -42,7 +42,8 @@ author:
   uri    : "https://alab.aqara.cn"
   location : "Shenzhen, China"  
 
-
+# Reading Files
+include: [_pages]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
