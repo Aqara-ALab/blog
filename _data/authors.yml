@@ -28,3 +28,34 @@ Louis:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+Yunjie:
+  name             : "Yunjie"
+  avatar           : "/assets/images/yunjie/bio-photo.jpg"
+  bio              : "NLP"
+  location         : "Shenzhen, China"
+  email            : "yunjiework@163.com"
+  uri              : "http://www-scf.usc.edu/~yunjiezh/"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "yjiezh"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "yunjie-zhao-83b334b1"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
