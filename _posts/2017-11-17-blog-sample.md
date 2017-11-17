@@ -92,9 +92,9 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
  
 内部相对链接地址：
 ```md
-![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
+![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-logo.jpg)
 ```
-![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
+![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-logo.jpg)
 
 #### 图片的排列
 
