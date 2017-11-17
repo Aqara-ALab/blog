@@ -84,7 +84,7 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 外部图片链接地址：
 
 ![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
-
+ 
 内部图片链接地址：
 
 ![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
@@ -92,8 +92,8 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 **One Up**
 
 <figure>
-	<a href="/assets/images/alab-avatar.jpg"><img src="/assets/images/alab-avatar-gray.jpg"></a>
-	<figcaption><a href="/assets/images/alab-avatar.jpg" title="ALab logo">ALab logo</a>.</figcaption>
+	<a href="/assets/images/alab-avatar.png"><img src="/assets/images/alab-avatar-gray.png"></a>
+	<figcaption><a href="/assets/images/alab-avatar-lucency.png" title="ALab logo">ALab logo</a>.</figcaption>
 </figure>
 
 **Two Up**
