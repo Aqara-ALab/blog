@@ -41,9 +41,6 @@ author:
   location : "Shenzhen, China"  
 
 # Reading Files
-include:
-  - .htaccess
-  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
