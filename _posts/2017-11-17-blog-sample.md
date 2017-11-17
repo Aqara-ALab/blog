@@ -81,13 +81,62 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 
 #### 1. 图片
 
-使用完整链接地址：
+外部图片链接地址：
 
 ![alab-logo](http://7d9jr9.com1.z0.glb.clouddn.com/alab-avatar-lucency.png)
 
-使用内部相对地址：
+内部图片链接地址：
 
-![alab-logo-gray](/assets/images/alab-avatar-gray.png)
+![alab-logo-gray](https://aqara-alab.github.io/blog/assets/images/alab-avatar-gray.png)
+
+**One Up**
+
+<figure>
+	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
+	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+</figure>
+
+**Two Up**
+
+Apply the `half` class like so to display two images side by side that share the same caption.
+
+```html
+<figure class="half">
+    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
+    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
+```
+
+And you'll get something that looks like this:
+
+<figure class="half">
+	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
+	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
+	<figcaption>Two images.</figcaption>
+</figure>
+
+**Three Up**
+
+Apply the `third` class like so to display three images side by side that share the same caption.
+
+```html
+<figure class="third">
+	<img src="/images/image-filename-1.jpg">
+	<img src="/images/image-filename-2.jpg">
+	<img src="/images/image-filename-3.jpg">
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
+```
+
+And you'll get something that looks like this:
+
+<figure class="third">
+	<img src="http://placehold.it/600x300.jpg">
+	<img src="http://placehold.it/600x300.jpg">
+	<img src="http://placehold.it/600x300.jpg">
+	<figcaption>Three images.</figcaption>
+</figure>
 
 #### 2. 列表
 
