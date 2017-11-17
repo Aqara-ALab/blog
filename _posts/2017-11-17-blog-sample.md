@@ -12,10 +12,10 @@ toc: true
 toc_label: "Blog Sample"
 ---
 这是一篇利用**Markdown**格式编写的一篇博客样本，大家可以参考这篇样本来编写博客，这里主要介绍ALab团队技术博客的编写注意事项。欢迎大家利用此博客进行：
-- *整理知识，学习笔记
-- *记录对有关技术问题的思考
-- *撰写技术方案工程实践文稿（代码支持）
-- *撰写技术方案算法文稿（LaTex公式支持）
+- *整理知识，学习笔记*
+- *记录对有关技术问题的思考*
+- *撰写技术方案工程实践文稿（代码支持）*
+- *撰写技术方案算法文稿（LaTex公式支持）*
 
 这是一个搭建在[Github Pages](https://pages.github.com/)上，利用[Jekyll](https://jekyllrb.com/)静态页面引擎，并使用[minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)模板的博客。
 
@@ -132,13 +132,14 @@ if __name__ == '__main__':
 
 总而言之，不同于其它 *所见即所得* 的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 GitHub 和 技术问答网站 StackOverFlow 的御用书写格式。
 
-##更多
+## 更多
 
 关于此博客模板，还有很多功能可以使用，大家如果有兴趣，可以参考[minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 2016 年 07月 07日    
 
 参考文献：
+
 [minimal-mistakes quick start guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
 [支持 **LaTeX** 编辑显示支持](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
