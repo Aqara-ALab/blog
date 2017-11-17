@@ -1,6 +1,5 @@
 ---
 title:  "欢迎使用 ALab 团队技术博客（样篇）"
-last_modified_at: 
 author: Louis
 header:
   image: /assets/images/louis/sample-header.jpg
