@@ -43,7 +43,7 @@ toc_icon: "heart"
 
 ### 配置信息
 
-由于此博客是利用Jekyll静态页面引擎，博客文章的配置信息是YAML标记语言，这是一种专门用于配置文件的语言，相关介绍可参考：[YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt)。但其实我们这里所用到的配置信息比较常见的有：
+由于此博客是利用Jekyll静态页面引擎，博客文章的配置信息是YAML标记语言，这是一种专门用于配置文件的语言，相关介绍可参考：[YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html?f=tt)。我们这里所用到的配置信息比较常见的有：
 
 - title：文章的标题
 - author: 作者，请填写补充在/_data/authors.yml文件中的作者名称
@@ -68,7 +68,7 @@ tags:
   - ALab
 toc: true
 toc_label: "Blog Sample"
-toc_icon: "heart"
+toc_icon: "rocket"
 ---
 ```
 ### 正文内容
@@ -88,15 +88,8 @@ Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以�
 ```md
 ![github-logo](http://xaharts.org/funny/i/gitopuss/github-octocat_yes-we-code.jpg)
 ```
-
 ![github-logo](http://xaharts.org/funny/i/gitopuss/github-octocat_yes-we-code.jpg)
  
-内部图片链接地址：
-```md
-![github-logo](https://aqara-alab.github.io/blog/assets/images/louis/sample-github-2.png)
-```
-![github-logo](https://aqara-alab.github.io/blog/assets/images/louis/sample-github-2.png)
-
 内部相对链接地址：
 ```md
 ![github-logo]({{ site.url }}{{ site.baseurl }}/assets/images/louis/sample-github-1.png)
