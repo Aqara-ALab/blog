@@ -59,3 +59,34 @@ Yunjie:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+quxiaofeng:
+  name             : "Xiaofeng QU"
+  avatar           : "/assets/images/quxiaofeng/avatar.png"
+  bio              : "Working"
+  location         : "Shenzhen, China"
+  email            : "xiaofeng.qu@lumiunited.com"
+  uri              : "http://www.quxiaofeng.me/about/"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : quxiaofeng
+  foursquare       :
+  github           : quxiaofeng
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : quxiaofeng
+  lastfm           :
+  linkedin         : quxiaofeng
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          : quxiaofeng
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
