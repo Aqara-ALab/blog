@@ -426,7 +426,7 @@ return_str = subprocess.check_output(cmd, universal_newlines=True)
 
 print('The maximum of the numbers is:', return_str)
 ```
-（示例代码来源于：https://www.mango-solutions.com/blog/integrating-python-and-r-part-ii-executing-r-from-python-and-vice-versa，有修改）
+（示例代码来源于：[https://www.mango-solutions.com/blog/integrating-python-and-r-part-ii-executing-r-from-python-and-vice-versa](https://www.mango-solutions.com/blog/integrating-python-and-r-part-ii-executing-r-from-python-and-vice-versa)，有修改）
 
 总结
 Python 的开发，是以 C/C++ 为基础的，所以针对 C/C++ 的调用最为方便。其它程序、动态链接库、代码的调用，都可以通过 EXE、DLL、C/C++ 三种渠道之一实现。Python 还是比较适合粘合各种程序与代码的。
