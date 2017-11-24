@@ -2,7 +2,7 @@
 title:  "借石攻玉——如何用 Python 调用其他程序和代码"
 author: quxiaofeng
 header:
-  image: /assets/images/louis/sample-header.jpg
+  image: /assets/images/quxiaofeng/python-logo.png
 read_time: true
 categories:
   - Programming
