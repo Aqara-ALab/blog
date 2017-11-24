@@ -84,7 +84,7 @@ if not (_python27 or _python34):
 
 可以使用 subprosess 包（无需安装）。
 
-文档参见：https://docs.python.org/3.5/library/subprocess.html
+文档参见：[https://docs.python.org/3.5/library/subprocess.html](https://docs.python.org/3.5/library/subprocess.html)
 
 test_cos_exe.py
 ```python
@@ -184,9 +184,9 @@ user32 = windll.LoadLibrary('user32.dll') # load dll
 assert(user32.MessageBoxA(0, b'Ctypes is cool!', b'Ctypes', 0))
 # call message box function
 ```
-（示例代码来源久远，已不可考，笔者首次使用是在该文中：http://www.quxiaofeng.me/2014/02/25/python-pygame-notes/）
+（示例代码来源久远，已不可考，笔者首次使用是在该文中：[http://www.quxiaofeng.me/2014/02/25/python-pygame-notes/](http://www.quxiaofeng.me/2014/02/25/python-pygame-notes/)）
 
-相当简单直接。其实只需要用 dependency walker 找到 dll 文件中的函数名，就可以使用 ctypes 包直接调用。（http://dependencywalker.com/）
+相当简单直接。其实只需要用 dependency walker 找到 dll 文件中的函数名，就可以使用 ctypes 包直接调用。（[http://dependencywalker.com/](http://dependencywalker.com/)）
 
 这里其实揭示了 dll 文件的本质，就是一组二进制代码，函数名就是代码的入口定位符号。
 
@@ -374,7 +374,7 @@ javaPackage.Integer.toString(javaObject.length()))
 
 shutdownJVM()
 ```
-（示例代码来源于：https://www.quora.com/Can-we-write-C-and-Java-in-Python，有修改）
+（示例代码来源于：[https://www.quora.com/Can-we-write-C-and-Java-in-Python](https://www.quora.com/Can-we-write-C-and-Java-in-Python)，有修改）
 
 从调用方式中可以看出，其实也是调用 jvm 的 dll。
 
