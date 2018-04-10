@@ -1,5 +1,5 @@
 ---
-title:  "Reference Material"
+title:  "AI Reference Material"
 last_modified_at: 2018-04-10T17:30:16-04:00
 author: Louis
 header:
@@ -162,8 +162,8 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 - [小米生态云深度学习服务器配置流程](http://192.168.0.150:8080/xwiki/bin/view/ALAB/%E5%B0%8F%E7%B1%B3%E7%94%9F%E6%80%81%E4%BA%91%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B)
 - [小米陈迪豪：TensorFlow 与深度学习平台实践](https://www.ctolib.com/topics-56412.html)
 - [视觉是小米AI服务平台的未来](https://mp.weixin.qq.com/s/v8UkFOKYGZzyoyZ0WbtZFw)
-- ![AI平台服务 - 解智]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-jiezhi-ai-platform-service.pdf)
-- ![深度学习云服务介绍 - 陈迪豪]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-tobe-deep-learning-cloud-service-introduction.pdf)
+- [AI平台服务 - 解智]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-jiezhi-ai-platform-service.pdf)
+- [深度学习云服务介绍 - 陈迪豪]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-tobe-deep-learning-cloud-service-introduction.pdf)
 
 
 ### TensorFlow
