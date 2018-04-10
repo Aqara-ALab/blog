@@ -44,6 +44,7 @@ Docker is the world's leading software containerization platform.
 - [Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 - [Docker 微服务教程](http://www.ruanyifeng.com/blog/2018/02/docker-wordpress-tutorial.html)
 - [Docker 安装 (Ubuntu)](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- [Docker Hub](https://hub.docker.com)
 
 #### 更改image仓库的镜像网址
 
@@ -151,23 +152,65 @@ $ docker container exec -it [containerID] /bin/bash # 用于进入一个正在�
 $ docker container cp [containerID]:[/path/to/file] # 从正在运行的Docker容器里面，将文件拷贝至本地
 
 ```
-
 ### Kubernetes
 ### Python
 ### CloudML
 
 CloudML是小米提供的小米云深度学习服务，开发者可以在云端使用GPU训练模型，也可以一键部署模型服务。
 
-- [CloudML介绍](http://docs.api.xiaomi.com/cloud-ml/)
+- [CloudML文档](http://docs.api.xiaomi.com/cloud-ml/)
 - [小米生态云深度学习服务器配置流程](http://192.168.0.150:8080/xwiki/bin/view/ALAB/%E5%B0%8F%E7%B1%B3%E7%94%9F%E6%80%81%E4%BA%91%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B)
 - [小米陈迪豪：TensorFlow 与深度学习平台实践](https://www.ctolib.com/topics-56412.html)
 - [视觉是小米AI服务平台的未来](https://mp.weixin.qq.com/s/v8UkFOKYGZzyoyZ0WbtZFw)
 - [AI平台服务 - 解智]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-jiezhi-ai-platform-service.pdf)
 - [深度学习云服务介绍 - 陈迪豪]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-tobe-deep-learning-cloud-service-introduction.pdf)
 
-
 ### TensorFlow
+
+![tensorflow]({{ site.url }}{{ site.baseurl }}/assets/images/louis/tensorflow01.jpg)
+
+- [TensorFlow 官网](https://www.tensorflow.org/)
+- [TensorFlow 机器学习速成课程](https://developers.google.com/machine-learning/crash-course/)
+
+
+#### TensorFlow Serving
+
+TensorFlow Serving 是一个用于提供机器学习模型服务的高性能开源库。它可以将训练好的机器学习模型部署到线上，使用 gRPC 作为接口接受外部调用，它支持模型热更新与自动模型版本管理。
+
+- [TensorFlow Serving](https://www.tensorflow.org/serving/)
+- [TensorFlow Serving Github](https://github.com/tensorflow/serving)
+- [TensorFlow Serving Install Instructions](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/setup.md)
+- [TensorFlow Serving Basic Tutorial](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/serving_basic.md)
+- [how to deploy machine learning models with tensorflow - 1](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-1-make-your-model-ready-for-serving-776a14ec3198)
+- [how to deploy machine learning models with tensorflow - 2](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-2-containerize-it-db0ad7ca35a7)
+- [how to deploy machine learning models with tensorflow - 3](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-3-into-the-cloud-7115ff774bb6)
+
+**安装时可能会遇到的问题**
+
+在虚拟机ubuntu 16.04上面安装tensorflow serving的时候，安装好之后可能会出现错误，可用下面方法来解决：
+
+[https://github.com/tensorflow/serving/issues/819](https://github.com/tensorflow/serving/issues/819)
+
+```sh
+$ apt-get install -y software-properties-common
+$ add-apt-repository ppa:ubuntu-toolchain-r/test -y
+```
+```sh
+$ apt-get update
+$ apt-get upgrade
+$ apt-get dist-upgrade
+```
+**TensorFlow SavedModel**
+
+TensorFlow Serving所用的模型格式是SavedModel，需要理解SavedModel。
+
+- [理解SavedModel](https://blog.csdn.net/thriving_fcl/article/details/75213361)
+- [推荐一种TensorFlow模型格式](https://zhuanlan.zhihu.com/p/34471266?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [TensorFlow SavedModel README](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/saved_model/README.md)
+- [SignatureDef README](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/signature_defs.md)
+
  
+
 ## 技术博客
 
 
