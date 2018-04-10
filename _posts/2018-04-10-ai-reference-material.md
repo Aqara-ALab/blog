@@ -209,7 +209,70 @@ TensorFlow Serving所用的模型格式是SavedModel，需要理解SavedModel。
 - [TensorFlow SavedModel README](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/saved_model/README.md)
 - [SignatureDef README](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/signature_defs.md)
 
- 
+**gRPC**
+
+TensorFlow Serving使用gRPC作为接口接受外部调用，gRPC is A high performance, open-source universal RPC framework.
+
+- [gRPC Docement](https://grpc.io/docs/) 
+
+In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services.
+
+*   On the server side, the server implements this interface and runs a gRPC server to handle client calls.
+*   On the client side, the client has a stub that provides the same methods as the server.
+
+gRPC的基本思想是：定义一个接口服务，指定服务中可以通过参数和返回值类型进行远程调用的方法。在服务端，实现这个接口，运行一个gRPC服务器来处理客户端调用请求，在客户端，保留了一个存根，提供了和服务端一样的方法。
+
+几个特点：
+
+*   基于HTTP/2协议提供了更好的强的应用性能（节省带宽，减少TCP请求连接数）
+*   基于ProtoBuf定义服务，面向接口对服务进行顶层设计
+*   支持主流的编程语言，C++,Java,Python,Go,Ruby,Node.js，PHP等,基于ProtoBuf生成相应的服务端和客户端代码。
+*   相比在使用Restful方式完成服务之间的相互访问，GRPC能提供更好的性能，更低的延迟，并且生来适合与分布式系统。
+*   同时基于标准化的IDL（ProtoBuf）来生成服务器端和客户端代码, ProtoBuf服务定义可以作为服务契约，因此可以更好的支持团队与团队之间的接口设计，开发，测试，协作等等。
+
+使用gRPC的流程：
+
+1.  定义服务：一个PRC服务指定了可以通过方法参数和返回值类型进行远程调用的方法。我们使用protocol buffer接口定义语言（IDL）定义我们的服务方法，其参数和返回值都为protocol buffer消息类型。客户端和服务器端都会使用由服务定义产生的接口代码。
+
+```
+syntax = "proto3";
+
+option java_package = "io.grpc.examples";
+
+package helloworld;
+
+service Greeter {
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+message HelloRequest{
+    string name = 1;
+}
+
+message HelloReply{
+    string message = 1;
+}
+
+```
+
+2. 生成gRPC代码：
+
+一旦我们定义好了我们的服务，我们使用protocol buffer编译器（protoc ）来生成创建我们应用所需的特定的客户端和服务器端代码—你可以以任何gRPC支持的语言生成gRPC代码，即便PHP和Object-C仅支持创建客户端。生成的代码包含了客户端用来调用的代码和一个需要实现的服务端的抽象接口，这些方法都定义在我们的Greeter 服务器中。
+
+**Protocol Buffers**
+
+Protocol Buffers, Google's mature open source mechanism for serializing structured data.
+
+[Protocol Buffers](https://developers.google.com/protocol-buffers/docs/overview)
+
+1.  define the structure for the data you want to serialize in a proto file.
+2.  use the protocol buffer compiler protoc to generate data access classes in your preferred language.
+
+gRPC默认使用protocol buffers—Google 的成熟开源机制，用来序列化结构化数据。使用proto文件定义gRPC服务，其方法参数和返回类型作为protocol buffer的消息类型。
+
+*   protobuf是google开发的一个数据传输格式，类似json
+*   protobuf是二进制的、结构化的，所以比json的数据量更小，也更对象化
+*   protobuf不是像json直接明文的，这个是定义对象结构，然后由protbuf库去把对象自动转换成二进制，用的时候再自动反解过来的。传输对我们是透明的！我们只管传输的对象就可以了
 
 ## 技术博客
 
