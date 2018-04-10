@@ -35,11 +35,8 @@ toc_label: "Reference Material"
 
 Docker is the world's leading software containerization platform. 
 
-Docker is the company driving the container movement and the only container platform provider to address every application across the hybrid cloud. Today’s businesses are under pressure to digitally transform but are constrained by existing applications and infrastructure while rationalizing an increasingly diverse portfolio of clouds, datacenters and application architectures. Docker enables true independence between applications and infrastructure and developers and IT ops to unlock their potential and creates a model for better collaboration and innovation.
-
-```md
 ![Docker]({{ site.url }}{{ site.baseurl }}/assets/images/louis/docker01.png)
-```
+
 - [Docker 官网](https://www.docker.com/)
 - [Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
 - [Docker 微服务教程](http://www.ruanyifeng.com/blog/2018/02/docker-wordpress-tutorial.html)
