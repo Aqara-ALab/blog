@@ -1,5 +1,5 @@
 ---
-title:  "参考资料"
+title:  "AI参考资料"
 last_modified_at: 2018-04-10T17:30:16-04:00
 author: Louis
 header:
@@ -10,7 +10,7 @@ tags:
   - ALab
   - Study
 toc: true
-toc_label: "Reference Material"
+toc_label: "AI Reference Material"
 ---
 # 人工智能技术参考资料
 
@@ -85,6 +85,7 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [The Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
 - [阅读Python开源项目代码](https://zhuanlan.zhihu.com/p/22275595)
+- [莫烦Python](https://morvanzhou.github.io/)
 
 
 相关书籍
@@ -222,6 +223,14 @@ $ docker container cp [containerID]:[/path/to/file] # 从正在运行的Docker�
 ```
 ### Kubernetes
 
+*安装Kubernetes*
+
+- [Kubernetes 官网](https://kubernetes.io/)
+- [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)
+- [使用Kubeadm安装Kubernetes](https://tonybai.com/2016/12/30/install-kubernetes-on-ubuntu-with-kubeadm/)
+- [Ubuntu 16.04下kubeadm安装Kubernetes](https://blog.csdn.net/yan234280533/article/details/75136630)
+- [Install Kubernetes on Ubuntu](https://medium.com/@Grigorkh/install-kubernetes-on-ubuntu-1ac2ef522a36)
+
 ### CloudML
 
 CloudML是小米提供的小米云深度学习服务，开发者可以在云端使用GPU训练模型，也可以一键部署模型服务。
@@ -239,6 +248,7 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 
 - [TensorFlow 官网](https://www.tensorflow.org/)
 - [TensorFlow 机器学习速成课程](https://developers.google.com/machine-learning/crash-course/)
+- [部分TensorFlow学习资料汇总](https://zhuanlan.zhihu.com/p/35515805?group_id=967136285895344128)
 
 
 #### TensorFlow Serving
@@ -322,7 +332,6 @@ message HelloReply{
 }
 
 ```
-
 2. 生成gRPC代码：
 
 一旦我们定义好了我们的服务，我们使用protocol buffer编译器（protoc ）来生成创建我们应用所需的特定的客户端和服务器端代码—你可以以任何gRPC支持的语言生成gRPC代码，即便PHP和Object-C仅支持创建客户端。生成的代码包含了客户端用来调用的代码和一个需要实现的服务端的抽象接口，这些方法都定义在我们的Greeter 服务器中。
@@ -338,9 +347,18 @@ Protocol Buffers, Google's mature open source mechanism for serializing structur
 
 gRPC默认使用protocol buffers—Google 的成熟开源机制，用来序列化结构化数据。使用proto文件定义gRPC服务，其方法参数和返回类型作为protocol buffer的消息类型。
 
-*   protobuf是google开发的一个数据传输格式，类似json
-*   protobuf是二进制的、结构化的，所以比json的数据量更小，也更对象化
-*   protobuf不是像json直接明文的，这个是定义对象结构，然后由protbuf库去把对象自动转换成二进制，用的时候再自动反解过来的。传输对我们是透明的！我们只管传输的对象就可以了
+*   protobuf是google开发的一个数据传输格式，类似json。
+*   protobuf是二进制的、结构化的，所以比json的数据量更小，也更对象化。
+*   protobuf不是像json直接明文的，这个是定义对象结构，然后由protbuf库去把对象自动转换成二进制，用的时候再自动反解过来的。
+
+
+### PyTorch
+
+- [PyTorch Tutoials](http://pytorch.org/tutorials/)
+
+### MXNet
+
+- [动手学深度学习 - 李沐](http://zh.gluon.ai/)
 
 ## 技术博客
 
