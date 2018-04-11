@@ -1,5 +1,5 @@
 ---
-title:  "AI Reference Material"
+title:  "参考资料"
 last_modified_at: 2018-04-10T17:30:16-04:00
 author: Louis
 header:
@@ -29,6 +29,12 @@ toc_label: "Reference Material"
 ### 图像
 ### NLP
 ### 强化学习
+
+强化学习(Reinforcement Learning)，是机器学习和人工智能里的一类问题，研究如何通过一系列的顺序决策来达成一个特定目标。广义地说，任何目标导向的问题都可以形式化为一个强化学习问题。
+
+- [Reinforcement Learning: An Introduction](https://pan.baidu.com/s/1MymC1ks00AFPdZ8AUctssw)
+- [Deep Reinforcement Learning 深度增强学习资源](https://zhuanlan.zhihu.com/p/20885568)
+- [UC Berkeley CS 294深度强化学习课程（附视频与PPT)](https://zhuanlan.zhihu.com/p/35212427)
 
 ## 工具相关
 
