@@ -25,6 +25,42 @@ toc_label: "Reference Material"
 ## 人工智能算法相关
 
 ### 机器学习
+
+#### 吴恩达
+
+**吴恩达两门机器学习课程地址**
+
+AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine Learning课程，另一个是斯坦福大学课程（CS229：Machine Learning）。
+
+一：[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
+二：[http://cs229.stanford.edu/](http://cs229.stanford.edu/)
+
+**《Machine Learning Yearning》**
+
+这本书的重点不是教你ML算法，而是如何让ML算法发挥作用。一些AI技术会给你一个锤子；这本书教你如何使用锤子。如果你渴望成为AI的技术领导者，并且想要为你的团队设定方向，这本书将会有所帮助。
+
+- [《Machine Learning Yearning》PDF下载](https://pan.baidu.com/s/1chTHzddlFN9TpNN2FjaVvA)
+- [http://www.mlyearning.org/ 网站](http://www.mlyearning.org/)
+
+本书能让你掌握以下内容：
+
+* 考虑人工智能项目最有前途的方向。
+
+* 在机器学习系统中诊断错误。
+
+* 在复杂的设置中构建ML，例如不匹配的训练集/测试集。
+
+* 建立一个ML项目来比较和/或超过人类级的性能。
+
+* 了解何时以及如何应用端到端学习、迁移学习和多任务学习
+
+#### 林轩田
+
+台湾大学台大林轩田（Hsuan-Tien Lin）老师，拍摄了两部教学视频，是值得学习的。分别为《机器学习基石》和《机器学习技术》，可以在其个人网站上找到相关视频。
+
+- [Hsuan-Tien Lin 个人主页](https://www.csie.ntu.edu.tw/~htlin/)
+- [《机器学习基石》视频](https://www.bilibili.com/video/av12463015/index_1.html#page=1)
+
 ### 深度学习
 ### 图像
 ### NLP
@@ -39,6 +75,24 @@ toc_label: "Reference Material"
 ## 工具相关
 
 要将人工智能算法真正落地，解决实际的业务问题，必须依赖工程技术，下面介绍常用的工程技术工具。
+
+### Python
+
+#### Python 编程语言
+
+- [《简明Python教程》](https://bop.mol.uno)
+- [Python教程 - 廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [The Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
+
+#### Scikit-Learn
+
+Scikit-Learn 是Python中的非常高效实用的机器学习工具。
+
+- [Scikit-Learn 文档](http://sklearn.apachecn.org/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+#### Flask
+
 
 ### Docker
 
@@ -159,7 +213,7 @@ $ docker container cp [containerID]:[/path/to/file] # 从正在运行的Docker�
 
 ```
 ### Kubernetes
-### Python
+
 ### CloudML
 
 CloudML是小米提供的小米云深度学习服务，开发者可以在云端使用GPU训练模型，也可以一键部署模型服务。
