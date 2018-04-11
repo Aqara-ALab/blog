@@ -84,6 +84,14 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [Python教程 - 廖雪峰](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [The Python Standard Library](https://docs.python.org/3/library/index.html#library-index)
+- [阅读Python开源项目代码](https://zhuanlan.zhihu.com/p/22275595)
+
+
+相关书籍
+
+- [《Python编程从入门到实践》](https://pan.baidu.com/s/1bFBoI3itrn6EAuCJ5CwskA)
+- [《流畅的Python》](https://pan.baidu.com/s/1Wus6EmEYxCrGvLwO5mbYrQ)
+
 
 #### Scikit-Learn
 
