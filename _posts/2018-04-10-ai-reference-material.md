@@ -3,7 +3,7 @@ title:  "AI参考资料"
 last_modified_at: 2018-04-10T17:30:16-04:00
 author: Louis
 header:
-  image: /assets/images/alab-header.jpg
+  image: /assets/images/sample-header.jpg
 categories: 
   - ALab
 tags:
@@ -16,24 +16,23 @@ toc_label: "AI Reference Material"
 
 本材料包含利用人工智能技术来打造创新型产品的过程中所涉及到的各种技术，包括各种人工智能算法、大数据技术和将算法落地的各种工程技术。欢迎补充。
 
-## 大数据相关
-### Hadoop
-### Spark
-### Impala
-### MongoDB
-
 ## 人工智能算法相关
 
 ### 机器学习
 
 #### 吴恩达
 
-**吴恩达两门机器学习课程地址**
+**吴恩达之前两门机器学习课程地址**
 
 AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine Learning课程，另一个是斯坦福大学课程（CS229：Machine Learning）。
 
 一：[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
 二：[http://cs229.stanford.edu/](http://cs229.stanford.edu/)
+
+**deeplearning.ai**
+
+- [deeplearning.ai](https://www.deeplearning.ai/)
+- [网易云课堂 视频教程](https://mooc.study.163.com/smartSpec/detail/1001319001.htm/?utm_source=weibo.com&utm_medium=timeline&utm_campaign=deepLearning&utm_content=wnd20170831)
 
 **《Machine Learning Yearning》**
 
@@ -62,8 +61,32 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [《机器学习基石》视频](https://www.bilibili.com/video/av12463015/index_1.html#page=1)
 
 ### 深度学习
+
+- [《Deep Learning》](http://www.deeplearningbook.org/)
+- [《Deep Learning》中文版](https://exacity.github.io/deeplearningbook-chinese/)
+- [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [一张深度学习专项课程信息图](https://pan.baidu.com/s/1AQ8eRpUfbxivxWCFysDpWQ)
+- [解释上面那张信息图](https://zhuanlan.zhihu.com/p/34346816?group_id=955099684675518464)
+
 ### 图像
 ### NLP
+
+**参考文章**
+
+- [周明：如果用一个词形容NLP圈的2017，我选「想象」](https://zhuanlan.zhihu.com/p/33971233?group_id=950705936361295872)
+- [微软沈向洋：从Eliza到小冰，社交对话机器人的机遇和挑战](https://zhuanlan.zhihu.com/p/32839556?group_id=934781913961562112)
+- [李航：深度学习NLP的现有优势与未来挑战](https://mp.weixin.qq.com/s/k4dxj6qTGKNyoTn1uTb_aA)
+- [当你和天猫精灵对话时，它在想什么？](https://mp.weixin.qq.com/s/Db6Am-bAyufg3m67Ta5GBQ)
+- [自己动手做聊天机器人](http://www.shareditor.com/blogshow?blogId=136&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [携程“小诗机”](https://mp.weixin.qq.com/s/go0TK5ml_LZkLTSxrQLvfA)
+- [产品经理需要了解的语音交互评价指标](https://www.leiphone.com/news/201711/am6UF8tlE53ac3dF.html)
+
+**相关网站**
+
+- [百度UNIT](http://ai.baidu.com/tech/unit)
+- [科大讯飞开放平台](http://www.xfyun.cn/)
+- [Microsoft Azure AI平台](https://azure.microsoft.com/zh-cn/services/cognitive-services/)
+
 ### 强化学习
 
 强化学习(Reinforcement Learning)，是机器学习和人工智能里的一类问题，研究如何通过一系列的顺序决策来达成一个特定目标。广义地说，任何目标导向的问题都可以形式化为一个强化学习问题。
@@ -71,8 +94,152 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [Reinforcement Learning: An Introduction](https://pan.baidu.com/s/1MymC1ks00AFPdZ8AUctssw)
 - [Deep Reinforcement Learning 深度增强学习资源](https://zhuanlan.zhihu.com/p/20885568)
 - [UC Berkeley CS 294深度强化学习课程（附视频与PPT)](https://zhuanlan.zhihu.com/p/35212427)
+- [吴恩达对于增强学习的形象论述(上)](https://zhuanlan.zhihu.com/p/24761972)
+- [吴恩达对于增强学习的形象论述(下)](https://zhuanlan.zhihu.com/p/24996278)
 
-## 工具相关
+### 迁移学习
+
+- [从虚拟到现实，迁移深度增强学习让机器人革命成为可能](https://zhuanlan.zhihu.com/p/21470871?refer=intelligentunit)
+
+### GAN
+
+- [深度解密换脸应用Deepfake](https://zhuanlan.zhihu.com/p/34042498?group_id=951602691089125376)
+- [理解GAN](https://zhuanlan.zhihu.com/p/27012520)
+
+## 机器学习框架相关
+
+### TensorFlow
+
+![tensorflow]({{ site.url }}{{ site.baseurl }}/assets/images/louis/tensorflow01.jpg)
+
+- [TensorFlow 官网](https://www.tensorflow.org/)
+- [TensorFlow 机器学习速成课程](https://developers.google.com/machine-learning/crash-course/)
+- [部分TensorFlow学习资料汇总](https://zhuanlan.zhihu.com/p/35515805?group_id=967136285895344128)
+- [TensorFlow 中文教程](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
+- [TensorFlow 入门教程](https://zhuanlan.zhihu.com/p/29936078?group_id=900402095562313728)
+
+
+#### TensorFlow Serving
+
+TensorFlow Serving 是一个用于提供机器学习模型服务的高性能开源库。它可以将训练好的机器学习模型部署到线上，使用 gRPC 作为接口接受外部调用，它支持模型热更新与自动模型版本管理。
+
+- [TensorFlow Serving](https://www.tensorflow.org/serving/)
+- [TensorFlow Serving Github](https://github.com/tensorflow/serving)
+- [TensorFlow Serving Install Instructions](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/setup.md)
+- [TensorFlow Serving Basic Tutorial](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/serving_basic.md)
+- [how to deploy machine learning models with tensorflow - 1](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-1-make-your-model-ready-for-serving-776a14ec3198)
+- [how to deploy machine learning models with tensorflow - 2](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-2-containerize-it-db0ad7ca35a7)
+- [how to deploy machine learning models with tensorflow - 3](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-3-into-the-cloud-7115ff774bb6)
+
+**安装时可能会遇到的问题**
+
+在虚拟机ubuntu 16.04上面安装tensorflow serving的时候，安装好之后可能会出现错误，可用下面方法来解决：
+
+[https://github.com/tensorflow/serving/issues/819](https://github.com/tensorflow/serving/issues/819)
+
+```sh
+$ apt-get install -y software-properties-common
+$ add-apt-repository ppa:ubuntu-toolchain-r/test -y
+```
+```sh
+$ apt-get update
+$ apt-get upgrade
+$ apt-get dist-upgrade
+```
+**TensorFlow SavedModel**
+
+TensorFlow Serving所用的模型格式是SavedModel，需要理解SavedModel。
+
+- [理解SavedModel](https://blog.csdn.net/thriving_fcl/article/details/75213361)
+- [推荐一种TensorFlow模型格式](https://zhuanlan.zhihu.com/p/34471266?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+- [TensorFlow SavedModel README](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/saved_model/README.md)
+- [SignatureDef README](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/signature_defs.md)
+
+**gRPC**
+
+TensorFlow Serving使用gRPC作为接口接受外部调用，gRPC is A high performance, open-source universal RPC framework.
+
+- [gRPC Docement](https://grpc.io/docs/) 
+
+In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services.
+
+*   On the server side, the server implements this interface and runs a gRPC server to handle client calls.
+*   On the client side, the client has a stub that provides the same methods as the server.
+
+gRPC的基本思想是：定义一个接口服务，指定服务中可以通过参数和返回值类型进行远程调用的方法。在服务端，实现这个接口，运行一个gRPC服务器来处理客户端调用请求，在客户端，保留了一个存根，提供了和服务端一样的方法。
+
+几个特点：
+
+*   基于HTTP/2协议提供了更好的强的应用性能（节省带宽，减少TCP请求连接数）
+*   基于ProtoBuf定义服务，面向接口对服务进行顶层设计
+*   支持主流的编程语言，C++,Java,Python,Go,Ruby,Node.js，PHP等,基于ProtoBuf生成相应的服务端和客户端代码。
+*   相比在使用Restful方式完成服务之间的相互访问，GRPC能提供更好的性能，更低的延迟，并且生来适合与分布式系统。
+*   同时基于标准化的IDL（ProtoBuf）来生成服务器端和客户端代码, ProtoBuf服务定义可以作为服务契约，因此可以更好的支持团队与团队之间的接口设计，开发，测试，协作等等。
+
+使用gRPC的流程：
+
+1.  定义服务：一个PRC服务指定了可以通过方法参数和返回值类型进行远程调用的方法。我们使用protocol buffer接口定义语言（IDL）定义我们的服务方法，其参数和返回值都为protocol buffer消息类型。客户端和服务器端都会使用由服务定义产生的接口代码。
+
+```
+syntax = "proto3";
+
+option java_package = "io.grpc.examples";
+
+package helloworld;
+
+service Greeter {
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+message HelloRequest{
+    string name = 1;
+}
+
+message HelloReply{
+    string message = 1;
+}
+
+```
+2. 生成gRPC代码：
+
+一旦我们定义好了我们的服务，我们使用protocol buffer编译器（protoc ）来生成创建我们应用所需的特定的客户端和服务器端代码—你可以以任何gRPC支持的语言生成gRPC代码，即便PHP和Object-C仅支持创建客户端。生成的代码包含了客户端用来调用的代码和一个需要实现的服务端的抽象接口，这些方法都定义在我们的Greeter 服务器中。
+
+**Protocol Buffers**
+
+Protocol Buffers, Google's mature open source mechanism for serializing structured data.
+
+[Protocol Buffers](https://developers.google.com/protocol-buffers/docs/overview)
+
+1.  define the structure for the data you want to serialize in a proto file.
+2.  use the protocol buffer compiler protoc to generate data access classes in your preferred language.
+
+gRPC默认使用protocol buffers—Google 的成熟开源机制，用来序列化结构化数据。使用proto文件定义gRPC服务，其方法参数和返回类型作为protocol buffer的消息类型。
+
+*   protobuf是google开发的一个数据传输格式，类似json。
+*   protobuf是二进制的、结构化的，所以比json的数据量更小，也更对象化。
+*   protobuf不是像json直接明文的，这个是定义对象结构，然后由protbuf库去把对象自动转换成二进制，用的时候再自动反解过来的。
+
+### Keras
+
+Keras is a high-level neural networks API, written in Python and capable of running on top of [TensorFlow](https://github.com/tensorflow/tensorflow), [CNTK](https://github.com/Microsoft/cntk), or [Theano](https://github.com/Theano/Theano). It was developed with a focus on enabling fast experimentation. _Being able to go from idea to result with the least possible delay is key to doing good research._
+
+- [keras.io](https://keras.io/)
+- [Keras中文文档](https://keras-cn.readthedocs.io/en/latest/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
+### PyTorch
+
+- [PyTorch Tutoials](http://pytorch.org/tutorials/)
+- [PyTorch About](http://pytorch.org/about/)
+- [PyTorch入门](https://zhuanlan.zhihu.com/p/34072174?group_id=951876836649553920)
+
+### MXNet
+
+- [动手学深度学习 - 李沐](http://zh.gluon.ai/)
+- [Gluno](http://gluon.mxnet.io/)
+
+
+
+## 工程技术相关
 
 要将人工智能算法真正落地，解决实际的业务问题，必须依赖工程技术，下面介绍常用的工程技术工具。
 
@@ -242,124 +409,15 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 - [AI平台服务 - 解智]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-jiezhi-ai-platform-service.pdf)
 - [深度学习云服务介绍 - 陈迪豪]({{ site.url }}{{ site.baseurl }}/assets/files/louis/cloudml-tobe-deep-learning-cloud-service-introduction.pdf)
 
-### TensorFlow
+## 大数据相关
+### Hadoop
+### Spark
+### Impala
+### MongoDB
 
-![tensorflow]({{ site.url }}{{ site.baseurl }}/assets/images/louis/tensorflow01.jpg)
+## 相关网站
 
-- [TensorFlow 官网](https://www.tensorflow.org/)
-- [TensorFlow 机器学习速成课程](https://developers.google.com/machine-learning/crash-course/)
-- [部分TensorFlow学习资料汇总](https://zhuanlan.zhihu.com/p/35515805?group_id=967136285895344128)
-
-
-#### TensorFlow Serving
-
-TensorFlow Serving 是一个用于提供机器学习模型服务的高性能开源库。它可以将训练好的机器学习模型部署到线上，使用 gRPC 作为接口接受外部调用，它支持模型热更新与自动模型版本管理。
-
-- [TensorFlow Serving](https://www.tensorflow.org/serving/)
-- [TensorFlow Serving Github](https://github.com/tensorflow/serving)
-- [TensorFlow Serving Install Instructions](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/setup.md)
-- [TensorFlow Serving Basic Tutorial](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/serving_basic.md)
-- [how to deploy machine learning models with tensorflow - 1](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-1-make-your-model-ready-for-serving-776a14ec3198)
-- [how to deploy machine learning models with tensorflow - 2](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-2-containerize-it-db0ad7ca35a7)
-- [how to deploy machine learning models with tensorflow - 3](https://towardsdatascience.com/how-to-deploy-machine-learning-models-with-tensorflow-part-3-into-the-cloud-7115ff774bb6)
-
-**安装时可能会遇到的问题**
-
-在虚拟机ubuntu 16.04上面安装tensorflow serving的时候，安装好之后可能会出现错误，可用下面方法来解决：
-
-[https://github.com/tensorflow/serving/issues/819](https://github.com/tensorflow/serving/issues/819)
-
-```sh
-$ apt-get install -y software-properties-common
-$ add-apt-repository ppa:ubuntu-toolchain-r/test -y
-```
-```sh
-$ apt-get update
-$ apt-get upgrade
-$ apt-get dist-upgrade
-```
-**TensorFlow SavedModel**
-
-TensorFlow Serving所用的模型格式是SavedModel，需要理解SavedModel。
-
-- [理解SavedModel](https://blog.csdn.net/thriving_fcl/article/details/75213361)
-- [推荐一种TensorFlow模型格式](https://zhuanlan.zhihu.com/p/34471266?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- [TensorFlow SavedModel README](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/saved_model/README.md)
-- [SignatureDef README](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/signature_defs.md)
-
-**gRPC**
-
-TensorFlow Serving使用gRPC作为接口接受外部调用，gRPC is A high performance, open-source universal RPC framework.
-
-- [gRPC Docement](https://grpc.io/docs/) 
-
-In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services.
-
-*   On the server side, the server implements this interface and runs a gRPC server to handle client calls.
-*   On the client side, the client has a stub that provides the same methods as the server.
-
-gRPC的基本思想是：定义一个接口服务，指定服务中可以通过参数和返回值类型进行远程调用的方法。在服务端，实现这个接口，运行一个gRPC服务器来处理客户端调用请求，在客户端，保留了一个存根，提供了和服务端一样的方法。
-
-几个特点：
-
-*   基于HTTP/2协议提供了更好的强的应用性能（节省带宽，减少TCP请求连接数）
-*   基于ProtoBuf定义服务，面向接口对服务进行顶层设计
-*   支持主流的编程语言，C++,Java,Python,Go,Ruby,Node.js，PHP等,基于ProtoBuf生成相应的服务端和客户端代码。
-*   相比在使用Restful方式完成服务之间的相互访问，GRPC能提供更好的性能，更低的延迟，并且生来适合与分布式系统。
-*   同时基于标准化的IDL（ProtoBuf）来生成服务器端和客户端代码, ProtoBuf服务定义可以作为服务契约，因此可以更好的支持团队与团队之间的接口设计，开发，测试，协作等等。
-
-使用gRPC的流程：
-
-1.  定义服务：一个PRC服务指定了可以通过方法参数和返回值类型进行远程调用的方法。我们使用protocol buffer接口定义语言（IDL）定义我们的服务方法，其参数和返回值都为protocol buffer消息类型。客户端和服务器端都会使用由服务定义产生的接口代码。
-
-```
-syntax = "proto3";
-
-option java_package = "io.grpc.examples";
-
-package helloworld;
-
-service Greeter {
-    rpc SayHello (HelloRequest) returns (HelloReply) {}
-}
-
-message HelloRequest{
-    string name = 1;
-}
-
-message HelloReply{
-    string message = 1;
-}
-
-```
-2. 生成gRPC代码：
-
-一旦我们定义好了我们的服务，我们使用protocol buffer编译器（protoc ）来生成创建我们应用所需的特定的客户端和服务器端代码—你可以以任何gRPC支持的语言生成gRPC代码，即便PHP和Object-C仅支持创建客户端。生成的代码包含了客户端用来调用的代码和一个需要实现的服务端的抽象接口，这些方法都定义在我们的Greeter 服务器中。
-
-**Protocol Buffers**
-
-Protocol Buffers, Google's mature open source mechanism for serializing structured data.
-
-[Protocol Buffers](https://developers.google.com/protocol-buffers/docs/overview)
-
-1.  define the structure for the data you want to serialize in a proto file.
-2.  use the protocol buffer compiler protoc to generate data access classes in your preferred language.
-
-gRPC默认使用protocol buffers—Google 的成熟开源机制，用来序列化结构化数据。使用proto文件定义gRPC服务，其方法参数和返回类型作为protocol buffer的消息类型。
-
-*   protobuf是google开发的一个数据传输格式，类似json。
-*   protobuf是二进制的、结构化的，所以比json的数据量更小，也更对象化。
-*   protobuf不是像json直接明文的，这个是定义对象结构，然后由protbuf库去把对象自动转换成二进制，用的时候再自动反解过来的。
-
-
-### PyTorch
-
-- [PyTorch Tutoials](http://pytorch.org/tutorials/)
-
-### MXNet
-
-- [动手学深度学习 - 李沐](http://zh.gluon.ai/)
-
-## 技术博客
-
+- [Kaggle](https://www.kaggle.com/)
+- [OpenAI](https://www.openai.com/)
+- [DeepMind](https://deepmind.com/)
 
