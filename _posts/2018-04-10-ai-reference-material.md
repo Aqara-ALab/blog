@@ -14,7 +14,7 @@ toc_label: "AI Reference Material"
 ---
 # 人工智能技术参考资料
 
-本材料包含利用人工智能技术来打造创新型产品的过程中所涉及到的各种技术，包括各种人工智能算法、大数据技术和将算法落地的各种工程技术。欢迎补充。
+本材料包含利用人工智能技术来打造创新型产品的过程中所涉及到的各种技术，包括各种人工智能算法、机器学习框架、大数据技术和将算法落地的各种工程技术等。本参考资料是以上各种技术的知识索引，旨在帮助工程师快速了解和学习。欢迎补充。
 
 ## 人工智能算法相关
 
@@ -29,8 +29,8 @@ toc_label: "AI Reference Material"
 
 AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine Learning课程，另一个是斯坦福大学课程（CS229：Machine Learning）。
 
-一：[https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
-二：[http://cs229.stanford.edu/](http://cs229.stanford.edu/)
+- [https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
+- [http://cs229.stanford.edu/](http://cs229.stanford.edu/)
 
 **deeplearning.ai**
 
