@@ -20,6 +20,9 @@ toc_label: "AI Reference Material"
 
 ### 机器学习
 
+- [《机器学习》- 周志华](https://pan.baidu.com/s/1bpxnR-zdt_C8zJDV8tjwQw)
+- [Coursera 上机器学习课程（公开课）汇总推荐](https://zhuanlan.zhihu.com/p/35001533?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+
 #### 吴恩达
 
 **吴恩达之前两门机器学习课程地址**
@@ -79,12 +82,14 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [当你和天猫精灵对话时，它在想什么？](https://mp.weixin.qq.com/s/Db6Am-bAyufg3m67Ta5GBQ)
 - [自己动手做聊天机器人](http://www.shareditor.com/blogshow?blogId=136&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 - [携程“小诗机”](https://mp.weixin.qq.com/s/go0TK5ml_LZkLTSxrQLvfA)
-- [产品经理需要了解的语音交互评价指标](https://www.leiphone.com/news/201711/am6UF8tlE53ac3dF.html)
+- [如何使用深度学习执行文本实体提取](https://zhuanlan.zhihu.com/p/35423354?group_id=966369705133588480)
+
 
 **相关网站**
 
 - [百度UNIT](http://ai.baidu.com/tech/unit)
 - [科大讯飞开放平台](http://www.xfyun.cn/)
+- [小米水滴平台](https://shuidi.mi.com/)
 - [Microsoft Azure AI平台](https://azure.microsoft.com/zh-cn/services/cognitive-services/)
 
 ### 强化学习
@@ -96,10 +101,13 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [UC Berkeley CS 294深度强化学习课程（附视频与PPT)](https://zhuanlan.zhihu.com/p/35212427)
 - [吴恩达对于增强学习的形象论述(上)](https://zhuanlan.zhihu.com/p/24761972)
 - [吴恩达对于增强学习的形象论述(下)](https://zhuanlan.zhihu.com/p/24996278)
+- [深度增强学习再发力，家用机器人已近在眼前](https://zhuanlan.zhihu.com/p/22523121)
+- [Learning to navigate in cities without a map](https://deepmind.com/blog/learning-to-navigate-cities-without-a-map/)
 
 ### 迁移学习
 
 - [从虚拟到现实，迁移深度增强学习让机器人革命成为可能](https://zhuanlan.zhihu.com/p/21470871?refer=intelligentunit)
+
 
 ### GAN
 
@@ -118,6 +126,9 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 - [TensorFlow 中文教程](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
 - [TensorFlow 入门教程](https://zhuanlan.zhihu.com/p/29936078?group_id=900402095562313728)
 
+#### TensorFlow.js
+
+- [TensorFlow.js](https://js.tensorflow.org/)
 
 #### TensorFlow Serving
 
@@ -418,6 +429,13 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 ## 相关网站
 
 - [Kaggle](https://www.kaggle.com/)
+- [ImageNet](http://www.image-net.org)
 - [OpenAI](https://www.openai.com/)
 - [DeepMind](https://deepmind.com/)
+- [arxiv.org](https://arxiv.org/)
+- [NIPS](https://nips.cc/)
+- [ICLR](https://iclr.cc/)
+- [AAAI](http://www.aaai.org/)
+
+- [一些开放数据集](https://zhuanlan.zhihu.com/p/35455475?group_id=966692624060661760)
 
