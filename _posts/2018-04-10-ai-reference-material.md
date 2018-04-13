@@ -405,9 +405,7 @@ $ docker container cp [containerID]:[/path/to/file] # 从正在运行的Docker�
 
 - [Kubernetes 官网](https://kubernetes.io/)
 - [Kubernetes Handbook](https://jimmysong.io/kubernetes-handbook/)
-- [使用Kubeadm安装Kubernetes](https://tonybai.com/2016/12/30/install-kubernetes-on-ubuntu-with-kubeadm/)
-- [Ubuntu 16.04下kubeadm安装Kubernetes](https://blog.csdn.net/yan234280533/article/details/75136630)
-- [Install Kubernetes on Ubuntu](https://medium.com/@Grigorkh/install-kubernetes-on-ubuntu-1ac2ef522a36)
+- [Kubernetes集群安装和使用](http://192.168.0.150:8080/xwiki/bin/view/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%9B%A2%E9%98%9Fwiki/Kubernetes%E9%9B%86%E7%BE%A4%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8)
 
 ### CloudML
 
