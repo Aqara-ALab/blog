@@ -107,6 +107,7 @@ AndrewNg 之前的机器学习课程包含两门：一个是Cousera上的Machine
 ### 迁移学习
 
 - [从虚拟到现实，迁移深度增强学习让机器人革命成为可能](https://zhuanlan.zhihu.com/p/21470871?refer=intelligentunit)
+- [《迁移学习简明手册》](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
 
 
 ### GAN
@@ -436,4 +437,9 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 - [AAAI](http://www.aaai.org/)
 
 - [一些开放数据集](https://zhuanlan.zhihu.com/p/35455475?group_id=966692624060661760)
+
+### 技术博客
+
+- [美团点评技术团队](https://tech.meituan.com/)
+- [知乎专栏 - 智能单元](https://zhuanlan.zhihu.com/intelligentunit)
 
