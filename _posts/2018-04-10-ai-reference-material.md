@@ -436,6 +436,7 @@ CloudML是小米提供的小米云深度学习服务，开发者可以在云端�
 - [ICLR](https://iclr.cc/)
 - [AAAI](http://www.aaai.org/)
 
+- [supervise.ly](https://supervise.ly/)
 - [一些开放数据集](https://zhuanlan.zhihu.com/p/35455475?group_id=966692624060661760)
 
 ### 技术博客
